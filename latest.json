@@ -1,5 +1,10 @@
 {
   "schema": 1,
-  "version": "0.8.0",
-  "notes": "QGroundZub 0.8.0 is the current validated operator version. No newer operator update is currently published."
+  "version": "0.8.1",
+  "windows": {
+    "url": "https://github.com/Snip-21/QGroundZub-Releases/releases/download/v0.8.1/QGroundZub-installer-AMD64.exe",
+    "sha256": "27e90647da8eed3e777556ae0ff04878fe8d3d20dd60fdd3aa491bec5d46cc70",
+    "size": 144690479
+  },
+  "notes": "Updater hardening: fresh manifest fetches, verified Windows PE installer payloads, and automatic QGroundZub relaunch after installer failure."
 }
