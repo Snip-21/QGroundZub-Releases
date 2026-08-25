@@ -15,11 +15,21 @@ Publishing a build to this repository is a separate explicit release action. A b
 For a new operator release:
 
 1. bump `QGROUNDZUB_VERSION` in the private source repository;
-2. build and validate `QGroundZub-installer-AMD64.exe`;
-3. physically accept the candidate where required;
-4. create a GitHub Release here, for example tag `v0.7.1`;
-5. upload the validated installer asset;
-6. calculate its SHA-256 and size;
-7. update `latest.json` last, pointing to that exact release asset.
+2. update the private `CHANGELOG.md` for the new version;
+3. update the in-app Help/About **What's new** version heading/text so it matches the built product version;
+4. build and validate `QGroundZub-installer-AMD64.exe`;
+5. physically accept the candidate where required;
+6. create a GitHub Release here, for example tag `v0.8.2`;
+7. write a short GitHub Release description summarizing what changed in that exact version before publishing the release;
+8. upload the exact validated installer asset;
+9. calculate/verify its SHA-256 and size;
+10. update `latest.json` last, pointing to that exact release asset and including concise operator-facing notes.
+
+Before considering a release complete, the following four user-facing descriptions must agree on the version and key changes:
+
+- private `CHANGELOG.md`;
+- in-app Help/About **What's new** block;
+- public GitHub Release description;
+- public `latest.json` notes.
 
 Updating `latest.json` is the moment the new version becomes visible to operators.
