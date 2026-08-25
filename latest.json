@@ -3,8 +3,8 @@
   "version": "0.8.1",
   "windows": {
     "url": "https://raw.githubusercontent.com/Snip-21/QGroundZub-Releases/main/self-update-test.bin",
-    "sha256": "f38832603b4ee7719087aeb5a8b1b49c97f369ad65ae305472297cc17238f18e",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
     "size": 36
   },
-  "notes": "Controlled updater detection test. Do not install this test payload."
+  "notes": "Controlled SHA-256 rejection test. This payload must be rejected and never executed."
 }
