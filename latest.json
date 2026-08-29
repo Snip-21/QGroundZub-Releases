@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "0.8.1",
+  "version": "0.9.0",
   "windows": {
-    "url": "https://github.com/Snip-21/QGroundZub-Releases/releases/download/v0.8.1/QGroundZub-installer-AMD64.exe",
-    "sha256": "27e90647da8eed3e777556ae0ff04878fe8d3d20dd60fdd3aa491bec5d46cc70",
-    "size": 144690479
+    "url": "https://github.com/Snip-21/QGroundZub-Releases/releases/download/0.9.0/QGroundZub-installer-AMD64.exe",
+    "sha256": "642bb590a2c3dedd15a7dacee2f4e1f563c60b1df6ba825121c64b0671bbf324",
+    "size": 144683579
   },
-  "notes": "Updater hardening: fresh manifest fetches, verified Windows PE installer payloads, and automatic QGroundZub relaunch after installer failure."
+  "notes": "Hikvision camera reboot support, corrected TARGUN UDP routing, automatic migration of saved vehicle links, and synchronized Help/About release notes."
 }
