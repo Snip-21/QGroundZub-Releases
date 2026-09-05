@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "0.9.0",
+  "version": "0.10.0",
   "windows": {
-    "url": "https://github.com/Snip-21/QGroundZub-Releases/releases/download/0.9.0/QGroundZub-installer-AMD64.exe",
-    "sha256": "642bb590a2c3dedd15a7dacee2f4e1f563c60b1df6ba825121c64b0671bbf324",
-    "size": 144683579
+    "url": "https://github.com/Snip-21/QGroundZub-Releases/releases/download/0.10.0/QGroundZub-installer-AMD64.exe",
+    "sha256": "5f20ef52f57d454bd841b4e982f222c683c06cdc2f914c5510dab3814cfa3344",
+    "size": 144727585
   },
-  "notes": "Hikvision camera reboot support, corrected TARGUN UDP routing, automatic migration of saved vehicle links, and synchronized Help/About release notes."
+  "notes": "Improved detachable camera reliability and Camera PTT behavior, fixed automatic TARGUN MAVLink recovery after Raspberry Pi / mavlink-router restart, and preserved explicit manual Disconnect. Known issue: Dahua RTSP may fail to recover after a Raspberry Pi / WireGuard path interruption while the stream remains active; tracked as QGroundZub Issue #22."
 }
