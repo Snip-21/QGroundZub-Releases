@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "0.11.0",
+  "version": "0.11.2",
   "windows": {
-    "url": "https://github.com/Snip-21/QGroundZub-Releases/releases/download/0.11.0/QGroundZub-installer-AMD64.exe",
-    "sha256": "55ea8f683b36b0171404596d29ab993136afd946a71b40ae1446cb0de744cad5",
-    "size": 144753909
+    "url": "https://github.com/Snip-21/QGroundZub-Releases/releases/download/0.11.2/QGroundZub-installer-AMD64.exe",
+    "sha256": "6a030aef78ffbf0b18374bc43c37985b68420af9e600549c474487028c7085b6",
+    "size": 144846511
   },
-  "notes": "Added persistent Follow / Free map modes, adaptive operator-location marker sizing, updated parktronic range/calibration behavior, and fixed MilChat layer rebinding when the map is detached and reattached. Preview release; full physical runtime/regression acceptance of the complete 0.11.0 feature batch is still pending."
+  "notes": "Added per-camera Software decoding and Broken DVR RTSP compatibility, improved Vehicle Models layout, and added optional MikroTik Network Health diagnostics with persistent forensic logging. Build #60 passed Windows validation and the camera/MAVLink physical release smoke."
 }
