@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "0.11.2",
+  "version": "0.11.3",
   "windows": {
-    "url": "https://github.com/Snip-21/QGroundZub-Releases/releases/download/0.11.2/QGroundZub-installer-AMD64.exe",
-    "sha256": "6a030aef78ffbf0b18374bc43c37985b68420af9e600549c474487028c7085b6",
-    "size": 144846511
+    "url": "https://github.com/Snip-21/QGroundZub-Releases/releases/download/0.11.3/QGroundZub-installer-AMD64.exe",
+    "sha256": "fdff72250330ff4effff7ac122b649c652a994d5c07f7b340ddefaa51ea9de01",
+    "size": 144963265
   },
-  "notes": "Added per-camera Software decoding and Broken DVR RTSP compatibility, improved Vehicle Models layout, and added optional MikroTik Network Health diagnostics with persistent forensic logging. Build #60 passed Windows validation and the camera/MAVLink physical release smoke."
+  "notes": "Added provider-neutral Network Health and Camera Priority for Raspberry Pi and MikroTik, Stable Video enabled by default with fast isolated-camera recovery and shared-outage suppression, dedicated PCMU/PCMA camera receive audio, exclusive rover handover, automatic camera role mapping, and updated Ukrainian operator controls including SD/HD stream controls."
 }
